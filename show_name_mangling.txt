@@ -1,0 +1,11 @@
+Compile the program with 0 optimization
+
+clang++ -c -O0 temp.cpp -o temp.o`
+
+
+See all symbols
+nm temp.o
+
+
+Demangle all symbols
+nm temp.o | c++filt

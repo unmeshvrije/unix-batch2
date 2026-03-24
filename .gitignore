@@ -6,6 +6,7 @@
 
 # 3. Explicitly allow the files you want to keep
 !*.c
+!*.cpp
 !*.h
 !*.txt
 !README.md
